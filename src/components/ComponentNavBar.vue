@@ -3,8 +3,8 @@
     <div class="container">
       <div class="pages">
         <router-link to="/"><a>Home</a></router-link>
-        <router-link to="/"><a>Portfolio</a></router-link>
-        <router-link to="/"><a>CV</a></router-link>
+        <router-link to="/projects"><a>Projecten</a></router-link>
+        <a href="https://drive.google.com/file/d/1UTEpBEpvPhOJTq4MqCVM4YexqrSpcaEu/view?usp=drive_link">CV</a>
       </div>
       <span class="hamburger-icon" style="font-size:30px;cursor:pointer" @click="toggleNav">&#9776;</span>
     </div>
@@ -15,10 +15,8 @@
     <div class="overlay-content">
 
       <router-link to="/"><a>Home</a></router-link>
-      <router-link to="/events"><a>initatie</a></router-link>
-      <router-link to="/about"><a>Over ons</a></router-link>
-      <router-link to="/kalender"><a>Kalender</a></router-link>
-      <router-link to="/contact"><a>Contact</a></router-link>
+      <router-link to="/projects"><a>Projecten</a></router-link>
+      <router-link to="/"><a>CV</a></router-link>
     </div>
   </div>
 </template>
@@ -67,8 +65,8 @@ export default {
   color: black;
   text-decoration: none;
   margin: 0 25px;
+  font-size: 20px;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
